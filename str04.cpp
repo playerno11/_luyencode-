@@ -11,8 +11,8 @@ int main(){
 	//freopen("str04.inp","r",stdin);
 	//freopen("str04.out","w",stdout);
 	getline( cin , s) ;
-    for ( ll i=0 ; i < s.size() ; i++) s[i] = tolower(s[i]) ;
+        for ( ll i=0 ; i < s.size() ; i++) s[i] = tolower(s[i]) ;
 	for ( ll i=0 ; i < s.size() ; i++) mp[s[i]]++ ;
 	for ( char i='0' ; i <= 'z' ; i++)
-        if ( mp[i] > 0) cout << i << " " << mp[i] << endl ;
+              if ( mp[i] > 0) cout << i << " " << mp[i] << endl ;
 }
